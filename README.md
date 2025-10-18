@@ -93,4 +93,3 @@ A fully accessible, responsive profile card component built with semantic HTML, 
 **Version:** 1.0.0
 \`\`\`
 
-Now let me create a testing guide:
