@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ProfileCard.css">
+    <title>ProfileCard</title>
+</head>
+<body>
+    <article data-testid="test-profile-card">
+        <header>
+            <h1 data-testid="test-user-name">Kalesanwo Olayinka</h1>
+        </header>
+
+        <div class="profile-content">
+            <figure data-testid="test-user-avatar">
+                <img 
+                    data-testid="test-user-avatar"
+                    src="Olayinka_Image.png" 
+                    alt="Kalesanwo Olayinka's profile picture"
+                    width="120"
+                    height="120"
+                >
+                <figcaption>Profile Photo</figcaption>
+            </figure>
+
+            <div class="profile-details">
+                <p data-testid="test-user-bio">
+                    Frontend developer passionate about creating beautiful and functional web experiences. 
+                    FPL enthusiast and open-source contributor.
+                </p>
+
+                <div class="time-section">
+                    <div class="time-label">Current Time (ms)</div>
+                    <time data-testid="test-user-time" id="current-time">0</time>
+                </div>
+
+                <nav data-testid="test-user-social-links">
+                    <span class="social-label">Connect</span>
+                    <ul class="social-list">
+                        <li>
+                            <a 
+                                href="https://twitter.com" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                data-testid="test-user-social-twitter"
+                                aria-label="Visit Twitter profile"
+                            >
+                                𝕏
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://github.com" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                data-testid="test-user-social-github"
+                                aria-label="Visit GitHub profile"
+                            >
+                                GH
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://linkedin.com" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                data-testid="test-user-social-linkedin"
+                                aria-label="Visit LinkedIn profile"
+                            >
+                                in
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="mailto:olayinka@example.com"
+                                data-testid="test-user-social-email"
+                                aria-label="Send email"
+                            >
+                                ✉
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <section>
+                    <h2 class="list-title">Hobbies</h2>
+                    <ul data-testid="test-user-hobbies">
+                        <li>Cooking</li>
+                        <li>Playing football</li>
+                        <li>Coding</li>
+                        <li>Reading</li>
+                        <li>Gaming</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="list-title">Dislikes</h2>
+                    <ul data-testid="test-user-dislikes">
+                        <li>Bugs</li>
+                        <li>Meetings</li>
+                        <li>Dishonest people</li>
+                        <li>Slow Internet</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </article>
+    <script src="ProfileCard.js"></script>
+</body>
+</html>
